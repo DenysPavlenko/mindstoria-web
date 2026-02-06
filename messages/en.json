@@ -1,0 +1,53 @@
+{
+  "HomePage": {
+    "title": "Track Your Mood, Sleep & Thoughts",
+    "subtitle": "A private mood journal with optional CBT reflection",
+    "download_on": "Download on the",
+    "app_store": "App Store",
+    "get_it_on": "Get it on",
+    "google_play": "Google Play"
+  },
+  "Metadata": {
+    "title": "Mindstoria - Personal Mood Tracker",
+    "description": "Track your feelings, emotions, impacts, sleep, and thoughts with Mindstoria app. Your private companion for mental well-being and mood tracking.",
+    "keywords": "mood tracker app, daily mood journal, personal wellbeing tracker, CBT thought diary, mental health tracker, emotion diary app, private mood logging, anxiety mood tracker, depression mood tracker, wellness journaling app",
+    "openGraphTitle": "Mindstoria - Personal Mood Tracker App",
+    "openGraphDescription": "Your personal companion for tracking mood, emotions, and mental well-being. Private, secure, and designed to help you understand yourself better."
+  },
+  "Info": {
+    "title": "How Mindstoria Works",
+    "01": {
+      "title": "Capture how you feel",
+      "description": "Quickly log your mood and how your day went."
+    },
+    "02": {
+      "title": "Select what impacts you",
+      "description": "Mark the factors that influence your mood each day."
+    },
+    "03": {
+      "title": "Pick your emotions",
+      "description": "Choose from a list of feelings you experience daily."
+    },
+    "04": {
+      "title": "Work through your thoughts",
+      "description": "Reflect with a gentle CBT-based journaling for self-awareness."
+    },
+    "05": {
+      "title": "Keep track of your sleep",
+      "description": "Log your sleep habits and see how well you rest."
+    },
+    "06": {
+      "title": "Understand your patterns",
+      "description": "Visualize trends and connections between moods and habits."
+    }
+  },
+  "Download": {
+    "ready": "Ready to dive in?",
+    "download": "Download Mindstoria"
+  },
+  "Footer": {
+    "contact": "Contact Us",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  }
+}
