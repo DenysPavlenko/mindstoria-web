@@ -17,7 +17,10 @@ export const Footer = ({ locale, className }: FooterProps) => {
         {t("contact")}
       </Typography>
       <a href={`mailto:${SUPPORT_EMAIL}`}>
-        <Typography variant="span" className="text-primary text-3xl font-bold">
+        <Typography
+          variant="span"
+          className="text-primary md:text-3xl font-bold"
+        >
           {SUPPORT_EMAIL}
         </Typography>
       </a>

@@ -9,7 +9,7 @@ interface HeroProps {
 
 export const Hero = ({ title, subtitle, locale }: HeroProps) => {
   return (
-    <div className="h-screen min-h-[500] flex flex-col text-center overflow-hidden">
+    <div className="md:h-screen min-h-[500] flex flex-col text-center overflow-hidden">
       <div>
         <div className="flex flex-col items-center justify-center gap-8 min-h-screen pt-20">
           <Logo />

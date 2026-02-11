@@ -1,3 +1,4 @@
+"use client";
 import { Typography } from "../typography";
 import { Icon, IconName } from "../icon";
 import { useTranslations, useLocale } from "next-intl";

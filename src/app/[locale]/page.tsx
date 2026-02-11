@@ -13,7 +13,7 @@ export default function Home({ params }: PageProps<"/[locale]">) {
   const t = useTranslations("HomePage");
 
   return (
-    <main className="w-full max-w-6xl mx-auto px-12">
+    <main className="w-full max-w-6xl mx-auto px-4 md:px-12">
       <Header className="absolute top-0 left-0" />
       <Hero title={t("title")} subtitle={t("subtitle")} locale={locale} />
       <div className="flex flex-col gap-20 my-20">
