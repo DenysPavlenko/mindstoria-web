@@ -19,3 +19,5 @@ export const EULA_URL =
   "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/";
 
 export type TStoreLink = keyof typeof STORE_LINKS;
+
+export const BASE_URL = "https://mindstoria.vercel.app";
