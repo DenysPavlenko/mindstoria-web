@@ -2,6 +2,7 @@ import { Typography } from "../typography";
 import { Icon, IconName } from "../icon";
 import { useTranslations, useLocale } from "next-intl";
 import { STORE_LINKS, TStoreLink } from "../../../config/constants";
+import { track } from "@vercel/analytics";
 
 export interface StoreButtonProps {
   store: "apple" | "google";
@@ -34,11 +35,20 @@ export function StoreButton({
       ? STORE_LINKS[locale].appStore
       : STORE_LINKS[locale].playStore;
 
+  const handleClick = () => {
+    track("Store Button Click", {
+      store: store,
+      locale: locale,
+      url: url,
+    });
+  };
+
   return (
     <a
       href={url}
       target="_blank"
       rel="noopener noreferrer"
+      onClick={handleClick}
       className={`inline-flex items-center gap-2 rounded-4xl shadow-md transition-transform hover:scale-105 focus:outline-none ${className} py-2 px-6 bg-on-surface`}
     >
       <Icon name={icon} size={32} className="text-surface" />
