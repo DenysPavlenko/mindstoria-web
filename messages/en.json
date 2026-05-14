@@ -17,28 +17,28 @@
   "Info": {
     "title": "How Mindstoria Works",
     "01": {
-      "title": "Capture how you feel",
-      "description": "Quickly log your mood and how your day went."
+      "title": "Check in with your mood",
+      "description": "Quickly log how you feel whenever you need to."
     },
     "02": {
-      "title": "Select what impacts you",
-      "description": "Mark the factors that influence your mood each day."
+      "title": "Notice what affects you",
+      "description": "Mark the situations, habits, or triggers that may influence your mood."
     },
     "03": {
-      "title": "Pick your emotions",
-      "description": "Choose from a list of feelings you experience daily."
+      "title": "Understand your emotions",
+      "description": "Choose the feelings you're experiencing to build emotional awareness."
     },
     "04": {
-      "title": "Work through your thoughts",
-      "description": "Reflect with a gentle CBT-based journaling for self-awareness."
+      "title": "Reflect on your thoughts",
+      "description": "Use gentle CBT-inspired journaling to process difficult moments and gain clarity."
     },
     "05": {
-      "title": "Keep track of your sleep",
-      "description": "Log your sleep habits and see how well you rest."
+      "title": "See your progress over time",
+      "description": "Explore your mood heatmap and chart to see how your feelings shift day by day."
     },
     "06": {
-      "title": "Understand your patterns",
-      "description": "Visualize trends and connections between moods and habits."
+      "title": "Discover your patterns",
+      "description": "See your top impacts and emotions at a glance to understand what shapes your mood."
     }
   },
   "Download": {
